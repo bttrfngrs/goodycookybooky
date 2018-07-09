@@ -16,5 +16,4 @@ end
 
 file '/var/www/html/index.html' do
   content 'Hello Godly World'
-  action :create
 end
