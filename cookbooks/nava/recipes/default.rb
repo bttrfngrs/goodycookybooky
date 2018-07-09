@@ -15,13 +15,5 @@ package "httpd"
 end
 
 file '/var/www/html/index.html' do
-  content 'fdsgdfgdsf dfgdfsgdfsg
-dfs gd
-fs
-gd
-fsg
-dfs
-g
-gdsf
-ghdfh world Part 33333333333333'
+  content 'Yalla Habibiiii part 10'
 end
