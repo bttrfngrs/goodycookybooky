@@ -14,3 +14,6 @@ package "httpd"
   action :start
 end
 
+file "/var/www/html/index.html"
+  content "Hello Godly World"
+end
