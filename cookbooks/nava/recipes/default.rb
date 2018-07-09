@@ -9,7 +9,8 @@
 #
 #
 
-execute "update" do
-  command "yum update -y"
-  action :run
+package "httpd"
+  service "httpd" do
+  action :start
 end
+
