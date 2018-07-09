@@ -15,5 +15,5 @@ package "httpd"
 end
 
 file '/var/www/html/index.html' do
-  content 'Hello Godly World'
+  content 'Hello Godly World Part 2'
 end
